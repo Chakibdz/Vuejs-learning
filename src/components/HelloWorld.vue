@@ -129,8 +129,8 @@
 <script>
 export default {
     name: "HelloWorld",
-    porps: {
-        msg: {
+    msg: {
+        props: {
             type: String
         }
     }
