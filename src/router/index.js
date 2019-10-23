@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Help from "../views/help.vue";
 import NewTest from "../views/NewTest.vue";
+import ContactPage from "../views/Contact.vue";
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,11 @@ const routes = [
         path: "/NewTest",
         name: "NewTest",
         component: NewTest
+    },
+    {
+        path: "/Contact",
+        name: "Contact",
+        component: ContactPage
     }
 ];
 
