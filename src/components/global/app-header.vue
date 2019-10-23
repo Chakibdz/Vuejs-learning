@@ -6,7 +6,7 @@
                 <router-link to="/" tag="li" exact> <a>Home</a></router-link>
                 <router-link to="/about" tag="li"><a>About</a></router-link>
                 <router-link to="/blog" tag="li"><a>Blog</a></router-link>
-                <router-link to="/header" tag="li"><a>Help</a></router-link>
+                <router-link to="/help" tag="li"><a>Help</a></router-link>
             </ul>
         </div>
     </div>
