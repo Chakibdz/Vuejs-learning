@@ -1,8 +1,6 @@
 <template>
     <div id="app">
-        <<<<<<< HEAD =======
         <AppHeader />
-        >>>>>>> fba995bbf03247401ac6e1be45d5193333d99278
         <router-view />
     </div>
 </template>
