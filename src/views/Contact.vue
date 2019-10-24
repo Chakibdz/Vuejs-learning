@@ -7,12 +7,17 @@
             dolorem magni facere dolor, dicta accusamus qui nostrum nemo ipsa
             doloremque neque ad temporibus.
         </p>
+        <WelcomeMessage />
     </div>
 </template>
 
 <script>
+import WelcomeMessage from "../components/WelcomeMessage.vue";
 export default {
-    name: "ContactPage"
+    name: "ContactPage",
+    components: {
+        WelcomeMessage
+    }
 };
 </script>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="test">
-        <h1 class="h1-test">test test CHAKIB</h1>
+        <h1 class="h1-test">Some thing</h1>
 
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
