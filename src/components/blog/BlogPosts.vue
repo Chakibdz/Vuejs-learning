@@ -1,20 +1,17 @@
 <template>
     <div class="post-box">
-        <span class="post-views">10</span>
-        <h3 class="post-title">title</h3>
-        <span class="post-date">12-09-2019</span>
+        <span class="post-views">{{ views }}</span>
+        <h3 class="post-title">{{ titel | reverse }}</h3>
+        <span class="post-date">{{ date }}</span>
         <p class="post-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-            excepturi nulla accusantium animi dolorem debitis, laboriosam neque
-            illum esse provident sit? Ducimus inventore sequi exercitationem
-            perspiciatis. Neque perspiciatis ullam voluptatibus.
+            {{ content | shorten(50, ' Lire plus ...') }}
         </p>
         <div class="row">
             <div class="col-sm-6">
-                <span class="post-authore"> author</span>
+                <span class="post-authore"> {{ author }}</span>
             </div>
             <div class="col-sm-6 text-right">
-                <span class="post-category"> category</span>
+                <span class="post-category"> {{ category | uppercase }}</span>
             </div>
         </div>
     </div>
@@ -22,8 +19,31 @@
 
 <script>
 export default {
-    name: "Post"
-};
+    name: 'Post',
+    props: {
+        views: {
+            type: Number,
+            default: 0
+        },
+        titel: {
+            type: String,
+            default: ' '
+        },
+        date: Date,
+        content: {
+            type: String,
+            default: ' '
+        },
+        author: {
+            type: String,
+            default: ' '
+        },
+        category: {
+            type: String,
+            default: ' '
+        }
+    }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -33,6 +53,7 @@ export default {
     box-shadow: 0 0 10px #ddd;
     position: relative;
     text-align: left;
+    margin-bottom: 20px;
     .post-views {
         position: absolute;
         top: 5px;

@@ -6,18 +6,18 @@
 </template>
 
 <script>
-import AppHeader from "@/components/global/app-header.vue";
+import AppHeader from '@/components/global/app-header.vue'
 
 export default {
-    name: "App",
+    name: 'App',
     components: {
         AppHeader
     }
-};
+}
 </script>
 <style lang="scss">
 #app {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;

@@ -6,6 +6,6 @@
 
 <script>
 export default {
-    name: "SideBares"
-};
+    name: 'SideBares'
+}
 </script>
