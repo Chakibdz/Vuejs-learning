@@ -7,12 +7,12 @@
 <script>
 // @ is an alias to /src
 export default {
-    name: "Help",
+    name: 'Help',
     data: function() {
         return {
-            pageName: "help page",
-            desc: "This is help us page"
-        };
+            pageName: 'help page',
+            desc: 'This is help us page'
+        }
     }
-};
+}
 </script>
