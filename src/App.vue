@@ -2,6 +2,7 @@
     <div id="app">
         <AppHeader />
         <router-view />
+        <Blog />
     </div>
 </template>
 
