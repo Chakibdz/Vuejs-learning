@@ -9,6 +9,7 @@ import ShowHide from '../views/Shmessage.vue'
 import Random from '../views/Random-views.vue'
 import Tabs from '../views/Tabs.vue'
 import Toggle from '../views/Toggle.vue'
+import Gradient from '../views/Gradient.vue'
 
 Vue.use(VueRouter)
 
@@ -66,6 +67,11 @@ const routes = [
         path: '/Toggle',
         name: 'Ttoggle',
         component: Toggle
+    },
+    {
+        path: '/Gradient',
+        name: 'Gradient',
+        component: Gradient
     }
 ]
 

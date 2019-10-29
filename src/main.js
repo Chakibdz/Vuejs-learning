@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'normalize.css'
 import './scss/main.scss'
 
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+
 // Global filters
 import './filters'
 
