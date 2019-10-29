@@ -1,6 +1,6 @@
 <template>
-    <div :style="{ background: gradient }">
-        <div class="container">
+    <div :style="{ background: gradient }" class="gradient-img">
+        <div class="container grad">
             <transition-group name="flip-list" tag="ul">
                 <li
                     v-for="(color, index) in colors"
@@ -129,6 +129,21 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.gradient-img {
+    height: 100vh;
+    display: flex;
+    transition: background-color 5s;
+}
+
+.container.grad {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 li {
     margin-bottom: 5px;
     display: flex;
